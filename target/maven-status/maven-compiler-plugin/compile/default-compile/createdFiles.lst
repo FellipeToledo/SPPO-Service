@@ -1,0 +1,5 @@
+com\azvtech\sppo_service\model\Consortium.class
+com\azvtech\sppo_service\ConsortiumRepository.class
+com\azvtech\sppo_service\ConsortiumController.class
+com\azvtech\sppo_service\SppoServiceApplication.class
+com\azvtech\sppo_service\ConsortiumService.class
