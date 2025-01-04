@@ -1,4 +1,4 @@
-package com.azvtech.sppo_service.application.payload.response;
+package com.azvtech.sppo_service.shared.exception.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Builder;

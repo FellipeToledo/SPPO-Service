@@ -1,4 +1,4 @@
-package com.azvtech.sppo_service.exception;
+package com.azvtech.sppo_service.shared.exception;
 
 /**
  * @author Fellipe Toledo
@@ -6,6 +6,6 @@ package com.azvtech.sppo_service.exception;
 
 public class ConsortiumNotFoundException extends RuntimeException{
     public ConsortiumNotFoundException(Long id) {
-        super("Consortium not found id: " + id);
+        super("Consortium not found with id: " + id);
     }
 }

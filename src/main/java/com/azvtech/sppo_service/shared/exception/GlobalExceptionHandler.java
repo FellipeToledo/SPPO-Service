@@ -1,6 +1,6 @@
-package com.azvtech.sppo_service.exception;
+package com.azvtech.sppo_service.shared.exception;
 
-import com.azvtech.sppo_service.application.payload.response.ApiError;
+import com.azvtech.sppo_service.shared.exception.response.ApiError;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
