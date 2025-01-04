@@ -29,10 +29,15 @@ public class ConsortiumController {
         return ResponseEntity.ok(consortiumService.getAllConsortiums());
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<Consortium> getById(@PathVariable Long id) {
+        return ResponseEntity.ok(consortiumService.getConsortiumById(id));
+    }
+
     @PostMapping("/{id}")
     public ResponseEntity<Consortium> update(@Valid @RequestBody Consortium consortium, @PathVariable Long id) {
         consortium.setId(id);
-        return ResponseEntity.ok(consortiumService.createConsortium(consortium));
+        return ResponseEntity.ok(consortiumService.updateConsortium(consortium));
     }
 
     @DeleteMapping("/{id}")
